@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Generador código QR</title>
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="./css/style.css">    
+</head>
+<body>
+    <!-- Div para particles.js -->
+    <div id="particles-js"></div>
+    
+    <!-- Contenido principal -->
+    <header class="header-w">
+        <div class="wrapper">
+            <header>
+                <h1>Generador código QR</h1>
+                <p><b>Ingrese un <span class="p-txt">URL</span> para crear un código QR</b></p>
+            </header>
+            <div class="form">
+                <input type="text" required id="qrText" spellcheck="false" placeholder="Escribir una URL">
+                <button>Generar código QR</button>
+            </div>
+            <div class="qr-code">
+                <img src="" alt="qr-code">
+            </div>
+         </div>
+    </header>
+
+    <!-- Scripts al final del cuerpo -->
+    <!-- Incluyendo particles.js -->
+    <script src="/js/particles.min.js"></script>
+    
+    <!-- Otro script para funcionalidades específicas de la aplicación -->
+    <script src="/js/app.js"></script>
+    
+    <!-- Tu script personalizado -->
+    <script src="/js/script.js"></script>
+</body>
+</html>
